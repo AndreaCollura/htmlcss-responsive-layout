@@ -8,6 +8,16 @@
 }
 
 
+:root{
+    /* Color styles */
+--light-blue: #0084FD;
+--light-purple: #9792E4;
+--black: #333333;
+--white: #FFFFFF;
+--yellow: #FDC15F;
+
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -20,6 +30,10 @@ body{
 /* padding & margin */
 
 
+.m-t20{
+    
+}
+
 /* utility */
 .debug{
     border: 1px solid red;
@@ -28,13 +42,53 @@ body{
 
 /* flex? */
 
+.d-flex{
+    display: flex;
+    flex-flow: row ;
+
+}
+
+.justco-spacebtw{
+    justify-content: space-between;
+}
+
+.justco-start{
+    justify-content: start;
+}
+
+.justco-center{
+    justify-content: center;
+}
+
+.justco-end{
+    justify-content: flex-end;
+}
+
+.aligit-center{
+    align-items: center;
+
+}
+
+.aligit-start{
+    align-content: flex-start;
+}
+
+.aligcon-start{
+    align-content: flex-start;
+}
+
+
+.aligcon-center{
+    align-content: center;
+}
 
 
 /* container */
 
 .container{
-    max-width: 100vw;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0 20px auto;
+    padding: 15px 0;
 
 }
 
@@ -44,15 +98,29 @@ body{
 /* header */
 
 header{
-
+    background-color: var(--light-blue);
+    height: 80px;
+    color: var(--white);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 
 /* main */
 
+main{
+    margin-top: 80px;
+}
 
+.purpl-bg{
+    background-color: var(--light-purple);
+}
 
 /* footer */
 
-
+footer{
+    background-color: var(--black);
+}
 
