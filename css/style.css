@@ -15,6 +15,7 @@
 --black: #333333;
 --white: #FFFFFF;
 --yellow: #FDC15F;
+--aqua: #b5ddff;
 
 }
 
@@ -27,11 +28,23 @@ body{
 }
 
 
-/* padding & margin */
+/* padding, border & margin  */
+
+
+.p-bneg30{
+    margin-bottom: -35px;
+    
+
+}
+
+.bord-radio{
+    border-radius: 20px;
+
+}
 
 
 .m-t20{
-    
+    margin-top: 20px;
 }
 
 /* utility */
@@ -42,6 +55,11 @@ body{
 
 ul{
     list-style: none;
+}
+
+.text-center{
+    text-align: center;
+    
 }
 
 /* flex */
@@ -137,6 +155,19 @@ main{
 .purpl-bg{
     background-color: var(--light-purple);
 }
+
+.card{
+    width: 100%;
+    padding: 30px;
+    background-color: var(--aqua);
+
+}
+
+#features img{
+    width: 100%;
+
+}
+
 
 /* footer */
 
