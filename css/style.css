@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-
 :root{
     /* Color styles */
 --light-blue: #0084FD;
@@ -28,8 +27,27 @@ body{
 }
 
 
+
+
+
+
+
 /* padding, border & margin  */
 
+
+.p-t20{
+    padding-top: 20px;
+
+}
+
+.p-tb40{
+    padding: 40px 0;
+}
+
+
+.p-b20{
+    padding-bottom: 20px;
+}
 
 .p-bneg30{
     margin-bottom: -35px;
@@ -37,9 +55,14 @@ body{
 
 }
 
-.bord-radio{
+.bord-radio-20{
     border-radius: 20px;
 
+}
+
+
+.bord-radio-40{
+    border-radius: 40px;
 }
 
 
@@ -47,11 +70,26 @@ body{
     margin-top: 20px;
 }
 
-/* utility */
+.m-b20{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* UTILITY + TEXT*/
 .debug{
     border: 1px solid red;
 }
 
+
+.inblock{
+    display: inline-block;
+}
 
 ul{
     list-style: none;
@@ -61,6 +99,54 @@ ul{
     text-align: center;
     
 }
+
+.text-deco{
+
+    text-decoration: none;
+}
+
+.bold{
+    font-style: bold;
+}
+
+.blue-text{
+    color: var(--light-blue);
+}
+
+
+.black-txt{
+    color: var(--black);
+}
+
+.white-txt{
+
+    color: var(--white);
+}
+
+.txt-interli{
+    line-height: 2rem;
+}
+
+.icon-big{
+    font-size: 5rem;
+}
+
+.purpl-bg{
+    background-color: var(--light-purple);
+}
+
+
+.white-bg{
+    background-color: var(--white);
+}
+
+.aqua-bg{
+    background-color: var(--aqua);
+}
+
+
+
+
 
 /* flex */
 
@@ -105,6 +191,12 @@ ul{
 }
 
 
+
+
+
+
+
+
 /* container */
 
 .container{
@@ -113,6 +205,39 @@ ul{
     padding: 15px 0;
 
 }
+
+
+
+
+
+
+
+
+
+/* BOTTONI */
+
+
+.feat-btn{
+    padding: 10px 60px;
+    background-color: var(--light-blue);        /* bottone da sistemare */
+    color: var(--white);
+
+}
+
+
+.arrw-btn{
+    width: 50px;
+    height: 50px;
+    background-color: var(--light-purple);
+    border-radius: 50%;
+    margin: 30px auto;
+    
+}
+
+.fa-arrow-down-long{
+    padding:20px 0;
+}
+
 
 
 
@@ -146,20 +271,23 @@ header img{
     width:70px;
 }
 
+
+
+
+
+
+
 /* main */
 
 main{
     margin-top: 80px;
 }
 
-.purpl-bg{
-    background-color: var(--light-purple);
-}
 
 .card{
     width: 100%;
     padding: 30px;
-    background-color: var(--aqua);
+   
 
 }
 
@@ -167,6 +295,14 @@ main{
     width: 100%;
 
 }
+
+.img100{
+    width: 100%;
+}
+
+
+
+
 
 
 /* footer */
