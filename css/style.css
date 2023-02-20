@@ -40,7 +40,11 @@ body{
 }
 
 
-/* flex? */
+ul{
+    list-style: none;
+}
+
+/* flex */
 
 .d-flex{
     display: flex;
@@ -99,7 +103,7 @@ body{
 
 header{
     background-color: var(--light-blue);
-    height: 80px;
+    height: 70px;
     color: var(--white);
     position: fixed;
     width: 100%;
@@ -107,6 +111,22 @@ header{
     z-index: 1000;
 }
 
+
+header ul{
+    display: none;
+}
+
+
+header nav a{
+    color: var(--white);
+    font-size: 20px;
+    
+}
+
+
+header img{
+    width:70px;
+}
 
 /* main */
 
