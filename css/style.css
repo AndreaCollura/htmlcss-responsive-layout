@@ -49,6 +49,11 @@ body{
     padding-bottom: 20px;
 }
 
+
+.p-b50{
+    padding-bottom: 50px;
+}
+
 .p-bneg30{
     margin-bottom: -35px;
     
@@ -66,6 +71,11 @@ body{
 }
 
 
+.bord-radio100{
+    border-radius: 100%;
+}
+
+
 .m-t20{
     margin-top: 20px;
 }
@@ -73,8 +83,6 @@ body{
 .m-b20{
     margin-bottom: 20px;
 }
-
-
 
 
 
@@ -144,6 +152,10 @@ ul{
     background-color: var(--aqua);
 }
 
+
+.ovf{
+    overflow: hidden;
+}
 
 
 
@@ -291,13 +303,18 @@ main{
 
 }
 
-#features img{
-    width: 100%;
-
-}
-
 .img100{
     width: 100%;
+}
+
+
+.round-img{
+    width: 50vw;
+    height: 50vw;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+    
 }
 
 
@@ -310,4 +327,12 @@ main{
 footer{
     background-color: var(--black);
 }
+
+
+
+
+
+/* PROVEEEEEEEEEE */
+
+
 
