@@ -492,6 +492,13 @@ footer{
 
 /* RESPONSIVITÁ */
 
+
+
+/* 768px */
+
+
+
+
 @media screen and (min-width:768px){
 
     .d-flexmq{
@@ -543,11 +550,50 @@ footer{
 
     }
 
+    .right40{
+        width: 40%;
+        padding: 80px 20px 0 0;
+
+    }
+    .left60{
+        width: 60%;
+    }
+    
+    .padding30{
+        padding: 60px;
+    }
+
+    #benefits .card{
+        width: calc((100% / 2) - 15px);
+    }
+
+    .gap10-15{
+        gap: 5px 15px;
+    }
 
 
+    #aboutus .container .left60 h2{
+        font-size: 4rem;
+    }
 
 
+    #cta .container h2{
+        font-size: 5rem;
+    }
 
+    #cta .container h3{
+        font-size: 2.5rem;
+    }
+
+    .lil-txt-box{
+        max-width: 400px;
+
+    }
+
+    
 }
+
+
+
 
 
