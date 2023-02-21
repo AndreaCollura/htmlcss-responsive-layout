@@ -57,7 +57,7 @@ section{
 }
 
 .p-bneg30{
-    margin-bottom: -35px;
+    margin-bottom: -25px;
     
 
 }
@@ -447,7 +447,7 @@ main{
 
 .card{
     width: 100%;
-    padding: 30px;
+    padding: 20px;
    
 
 }
@@ -460,7 +460,7 @@ main{
 .round-img{
     width: 200px;
     height: 200px;
-    object-fit: cover;
+    /* object-fit: cover; */
     object-position: center;
    
 }
@@ -492,4 +492,62 @@ footer{
 
 /* RESPONSIVITÁ */
 
-@media screen and (min-width:)
+@media screen and (min-width:768px){
+
+    .d-flexmq{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+    }
+
+    #features .card{
+
+        width: calc((100% / 3) - 10px) ;
+
+    }
+
+    #features .card:first-child{
+        width: calc((100% / 3 * 2) - 10px);
+        margin-bottom: 0;
+    }
+
+
+    .d-flexmq-nowrap{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .justco-mq-start{
+        justify-content: flex-start;
+    }
+
+    .aligco-mq-center{
+        align-content: center;
+    }
+
+    .txt-start{
+        text-align: start;
+    }
+
+    .left{
+        width: 30%;
+    }
+
+    .right{
+        width: 70%;
+    }
+
+    .p-mq-l20{
+        padding-left: 20px;
+
+    }
+
+
+
+
+
+
+}
+
+
