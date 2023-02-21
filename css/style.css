@@ -87,6 +87,17 @@ section{
 }
 
 
+.m-0a{
+    margin: 0 auto;
+}
+
+
+
+.p-lr5{
+    padding: 0 5px;
+}
+
+
 
 
 
@@ -219,6 +230,49 @@ ul{
     padding-bottom: 20px;
 }
 
+#aboutus .container h2{
+    color: var(--light-purple);
+}
+#aboutus .container h2:first-child{
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+
+#aboutus .container p{
+    line-height: 2rem;
+    padding-bottom: 30px;
+}
+
+#cta .container h4 {
+    padding: 20px 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+#cta .container h3{
+    font-size: 1.6rem;
+
+}
+
+#cta .container h2{
+    font-size: 3rem;
+    color: var(--yellow);
+
+}
+
+#cta .container p{
+
+    line-height: 1.5rem;
+    font-size: .9rem;
+
+}
+
+
+
+footer p{
+    color: var(--white);
+    font-size: .7rem;
+}
 
 
 
@@ -292,10 +346,11 @@ ul{
 
 
 .feat-btn{
-    padding: 7px 60px;
+    padding: 7px 40px;
     background-color: var(--light-blue);       
     color: var(--white);
     letter-spacing: 2px;
+    
 
 }
 
@@ -313,9 +368,6 @@ ul{
     padding:20px 0;
 }
 
-.fa-apple{
-    padding: 5px;
-}
 
 
 .bene-btn{
@@ -324,6 +376,28 @@ ul{
     color: var(--white);
     text-decoration: none;
     border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+.about-btn{
+    padding: 6px 6px;
+    background-color: var(--light-purple);
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: .8rem;
+    border-radius: 20px;
+}
+
+
+
+.cta-btn{
+    padding: 15px 50px;
+    background-color: var(--white);
+    color: var(--light-purple);
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
     letter-spacing: 2px;
 }
 
@@ -400,10 +474,6 @@ main{
 
 }
 
-.m-0a{
-     margin: 0 auto;
-}
-
 
 
 
@@ -420,4 +490,6 @@ footer{
 /* PROVEEEEEEEEEE */
 
 
+/* RESPONSIVITÁ */
 
+@media screen and (min-width:)
