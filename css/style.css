@@ -647,6 +647,25 @@ footer{
         margin-left: 10px;
     }
 
+    .d-flexmq{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
 
+    }
+
+    .split-l{
+        width: 55%;
+    }
+
+    .split-r{
+        width: 45%;
+    }
+
+    #features .container .card .split-r img{
+        width: 100%;
+    }
+
+    
 
 }
