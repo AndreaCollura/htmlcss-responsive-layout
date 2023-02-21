@@ -591,7 +591,7 @@ footer{
 
     }
 
-    #planning .container h2:first-child{
+    #planning .container h2{
         font-size: 4rem;
     }
 
@@ -610,7 +610,7 @@ footer{
     .container{
         max-width: 940px;
         margin: 0 auto;
-        padding: 15px 0;
+        /* padding: 15px 0; */
     }
 
     /* #features .container .card img{
@@ -655,17 +655,65 @@ footer{
     }
 
     .split-l{
-        width: 55%;
+        width: 50%;
     }
 
     .split-r{
-        width: 45%;
+        width: 50%;
     }
 
     #features .container .card .split-r img{
         width: 100%;
     }
 
-    
+    #planning .container h2{
+        font-size: 1.6rem;
+    }
 
+    .p-plancard40{
+        padding: 50px;
+    }
+
+    .aligit-end{
+        align-items: flex-end;
+    }
+
+    #planning .container .split-l img{
+        width: 80%;
+        padding-bottom: 60px;
+    }
+
+    #planning .container .split-r img{
+        width: 60%;  
+        object-position: center;  
+        margin: 0 20%;
+        
+    }
+
+    #planning .p-b50{
+        padding-bottom: 0;
+    }
+
+
+    #planning .container .split-r h2{
+        font-size: 1.2rem;
+    }
+
+    #planning .container .split-r p{
+        font-size:1rem;
+       
+    }
+
+
+    #benefits .card {
+        width: calc((100% / 3) - 15px);
+    }
+
+
+    .p-txt-about{
+        padding-right: 150px;
+    }
 }
+
+
+
