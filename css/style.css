@@ -590,7 +590,13 @@ footer{
 
     }
 
-    
+    #planning .container h2:first-child{
+        font-size: 4rem;
+    }
+
+    #benefits .container h2:first-child{
+        font-size: 2.5rem;
+    }
 }
 
 
