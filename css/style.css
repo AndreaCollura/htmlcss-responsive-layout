@@ -674,7 +674,7 @@ footer{
         padding: 50px;
     }
 
-    .aligit-end{
+    .aligit-end-mq{
         align-items: flex-end;
     }
 
@@ -717,3 +717,10 @@ footer{
 
 
 
+@media screen and(min-width:1200px){
+
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+ }   
